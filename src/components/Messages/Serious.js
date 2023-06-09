@@ -53,7 +53,7 @@ export default function Serious() {
       {
         messages.map((message, index) => {
           return (
-            <AccordionMessage title={message.title} body={message.body} time={`2023-06-10T${(8 + index).toString().padStart(2, '0')}:00`} />
+            <AccordionMessage title={message.title} body={message.body} time={`2023-06-10T01:${(10 + index).toString().padStart(2, '0')}`} />
           )
         }
         )
