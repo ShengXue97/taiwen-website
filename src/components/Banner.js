@@ -56,7 +56,9 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h1>{`To Tai Wen...`} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
-                  <p>Below are some short messages for you... The first message is unlocked on 10th June 2023 8am. Every hour later, a new message is unlocked. Check back every hour for new messages.</p>
+                  <p>Below are some short messages for you... Check back every hour for new messages!</p>
+                  <p>I have always wanted to create a website dedicated to you for our one year anniversary, and I am glad I finally did it!</p>
+                  <p>-Forever yours, Sheng Xue🧡</p>
                 </div>}
             </TrackVisibility>
           </Col>

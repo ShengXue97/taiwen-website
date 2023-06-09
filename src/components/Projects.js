@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import Fun from "./Fun";
+import Serious from "./Serious";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -66,13 +67,13 @@ export const Projects = () => {
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
-                        <p>Serious points</p>
+                        <Serious />
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Fun points</p>
+                        <Fun />
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>Information</p>
+                        <p>The first message is unlocked on 10th June 2023 8am. Every hour later, a new message is unlocked. Check back every hour for new messages.</p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
