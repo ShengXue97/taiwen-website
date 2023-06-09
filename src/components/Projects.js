@@ -52,7 +52,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Special messages</h2>
-                  <p>Why I love you... both serious and fun points.</p>
+                  <p>Why I love you... both serious and fun points. Don't forget to check both serious and fun tabs!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
