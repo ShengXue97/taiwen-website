@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taiwen-website/static/css/main.e316dfdd.css",
-    "main.js": "/taiwen-website/static/js/main.79acba6b.js",
+    "main.js": "/taiwen-website/static/js/main.cd5ae7fd.js",
     "static/js/787.fb771931.chunk.js": "/taiwen-website/static/js/787.fb771931.chunk.js",
     "static/media/romantic.jpg": "/taiwen-website/static/media/romantic.4083983c41f4d6b143e3.jpg",
     "static/media/panda-love.png": "/taiwen-website/static/media/panda-love.132217ef37af7f8826c4.png",
@@ -10,11 +10,11 @@
     "static/media/CentraNo2-Book.ttf": "/taiwen-website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "index.html": "/taiwen-website/index.html",
     "main.e316dfdd.css.map": "/taiwen-website/static/css/main.e316dfdd.css.map",
-    "main.79acba6b.js.map": "/taiwen-website/static/js/main.79acba6b.js.map",
+    "main.cd5ae7fd.js.map": "/taiwen-website/static/js/main.cd5ae7fd.js.map",
     "787.fb771931.chunk.js.map": "/taiwen-website/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e316dfdd.css",
-    "static/js/main.79acba6b.js"
+    "static/js/main.cd5ae7fd.js"
   ]
 }
