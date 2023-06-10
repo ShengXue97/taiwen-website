@@ -47,13 +47,13 @@ const messages = [
     body: "You’re soo cute and adorable, especially when you smile"
   },
 ]
-export default function Fun() {
+export default function Fun(props) {
   return (
     <div>
       {
         messages.map((message, index) => {
           return (
-            <AccordionMessage title={message.title} body={message.body} time={`2023-06-10T${(8 + index).toString().padStart(2, '0')}:00`} />
+            <AccordionMessage ip={props.ip} type={"fun"} title={message.title} body={message.body} time={`2023-06-10T${(8 + index).toString().padStart(2, '0')}:00`} />
           )
         }
         )

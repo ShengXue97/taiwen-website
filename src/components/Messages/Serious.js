@@ -47,13 +47,13 @@ const messages = [
     body: "We are each other best friends and can share anything with each other! You have mentioned before that you’re looking for a best friend in your partner and I believe that we have managed to achieve that. I feel comfortable sharing my innermost thoughts with you, because I trust you. You always listen with no judgements and provide important advice whenever I need them. Sometimes, you even allowed me to believe in myself and have more confidence. I really appreciate this. (:"
   },
 ]
-export default function Serious() {
+export default function Serious(props) {
   return (
     <div>
       {
         messages.map((message, index) => {
           return (
-            <AccordionMessage title={message.title} body={message.body} time={`2023-06-10T01:${(40 + index).toString().padStart(2, '0')}`} />
+            <AccordionMessage ip={props.ip} type={"serious"} title={message.title} body={message.body} time={`2023-06-10T${(8 + index).toString().padStart(2, '0')}:00`} />
           )
         }
         )
